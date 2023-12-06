@@ -176,12 +176,8 @@ body {
     text-decoration-color: #F33;
     text-decoration-thickness: 2px;
 }
-.section-quote__wrapper {
-    
-}
 .section-quote__img {
     position: absolute;
     left: -10%;
     top: -100%;
-   
 }
