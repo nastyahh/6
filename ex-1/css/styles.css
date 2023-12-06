@@ -1,0 +1,187 @@
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+input, textarea, button, select {
+  font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+@font-face {
+    font-family: "Futura PT";
+    src: url(../fonts/FuturaPT-Medium.ttf);
+    font-weight: 500;
+}
+
+body {
+    font-family: "Futura PT", Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: #000;
+}
+.container {
+    max-width: 1426px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.section-goals {
+    padding: 90px 0 100px;
+    object-fit: fill;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 51, 51, 0.50) 0%, rgba(255, 51, 51, 0.00) 100%), #000;
+    background-size: 100% 100%;
+    line-height: 130%;
+}
+.section-goals__header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-goals__title {
+    margin-bottom: 25px;
+    font-family: "Lato", sans-serif;
+    font-size: 100px;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+.section-goals__subtitle {
+    width: 420px;
+    margin: 0 auto;
+    font-size: 22px;
+}
+.section-goals__wrapper {
+    display: flex;
+    gap: 30px;
+}
+.section-goals__item {
+    width: 319px;
+    height: 282px;
+    padding: 40px 19px 0;
+    border-radius: 8px;
+    background: linear-gradient(131deg, rgba(255, 255, 255, 0.30) -19.06%, rgba(255, 255, 255, 0.00) 31.37%), #000;
+    box-shadow: 30px 30px 36px 0px rgba(21, 21, 21, 0.50) inset;
+}
+.section-goals__item__rhomb {
+    position: relative;
+    text-align: center;
+    width: 60.811px;
+    height: 60.811px;
+    background: linear-gradient(176deg, #F33 -36.48%, rgba(255, 51, 51, 0.00) 95.83%);
+    transform: rotate(45deg);
+    margin: 0 auto;
+}
+
+.section-goals__item__rhomb__numb {
+    position: absolute;
+    left: 14px;
+    top: 18px;
+    width: 24px;
+    transform: rotate(-45deg);
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+}
+.section-goals__item__text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.section-quote {
+    padding: 300px 0;
+    background: #000;
+    text-align: center;
+}
+.section-quote__text {
+    position: relative;
+    margin: 0 auto;
+    max-width: 933px;
+    height: auto;
+    line-height: 130%;
+    font-size: 50px;
+}
+.section-quote__text span {
+    text-decoration: underline;
+    text-decoration-color: #F33;
+    text-decoration-thickness: 2px;
+}
+.section-quote__wrapper {
+    
+}
+.section-quote__img {
+    position: absolute;
+    left: -10%;
+    top: -100%;
+   
+}
