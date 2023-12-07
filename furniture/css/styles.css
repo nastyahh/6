@@ -1,0 +1,43 @@
+.catalog {
+    padding: 110px 130px 95px;
+    font-family: 'Roboto', sans-serif;
+}
+.catalog__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+}
+[class^="catalog__items-"] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    gap: 30px;
+}
+.catalog__item {
+    position: relative;
+    width: 20%;
+    padding: 42px 32px 32px;
+    color: #414141;
+}
+.catalog__item__fav {
+    position: absolute;
+    right: 0;
+    top: 
+}
+.catalog__item__furniture-ph {
+    max-width: 100%;
+    margin-bottom: 54px;
+}
+.catalog__item__name {
+    font-size: 16px;
+    font-weight: 500;
+}
+.catalog__item__type {
+    margin: 6px 0 9px;
+    font-size: 11px;
+}
+.catalog__item__price {
+    font-size: 16px;
+    font-weight: 500;
+}
