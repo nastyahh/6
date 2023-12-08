@@ -23,7 +23,7 @@
 .catalog__item__fav {
     position: absolute;
     right: 0;
-    top: 
+    top: -11px;
 }
 .catalog__item__furniture-ph {
     max-width: 100%;
