@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Stem";
+    src: url(../fonts/StemRegular.ttf);
+    font-weight: 400;
+}
+
+.course {
+    position: relative;
+    padding: 90px 0 265px;
+    font-family: "Stem", sans-serif;
+    background: #79B100;
+    color: #FFF;
+}
+.course__wrapper {
+    padding: 0 15px;
+}
+.course__left-leave {
+    position: absolute;
+    left: 0;
+    top: 11%;
+}
+.course__right-leave {
+    position: absolute;
+    right: 0;
+    top: -18%;
+}
+.course__header {
+    max-width: 900px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.course__header__title {
+    margin-bottom: 36px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 71px; 
+}
+.course__header__subtitle {
+    margin-bottom: 26px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 44px;
+}
+.course__benefits {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.course__benefits__item {
+    position: relative;
+}
+.course__benefits__item__img {
+    width: 100%; 
+}
+.course__benefits__item__frame {    
+    position: absolute;
+    top: 85.68%;
+}
+.course__benefits__item__frame__img {
+    position: relative;
+}
+.course__benefits__item__text {
+    width: 165px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: #1D7100;
+    text-align: center;
+    font-size: 13px;
+    line-height: 16px; 
+}
