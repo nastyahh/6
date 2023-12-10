@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'Uni Neue';
+    src: url(../fonts/UniNeueRegular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Uni Neue Bold';
+    src: url(../fonts/UniNeueBold.ttf);
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Uni Neue';
+}
+.section-main {
+    background: rgba(30, 33, 40, 0.80);
+    color: #fff;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(30, 33, 40, 0.80);
+    z-index: 2;
+}
+.btn-primary {
+    padding: 13px 35px;
+    background: #D31218;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+}
+.header__btn-write {
+    margin-left: 100px;
+}
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.header__logo__first {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.header__logo__second {
+    background: #D31218;
+    padding: 5px 15px;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+.header__contact {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header__contact__phone {
+    font-size: 22px;
+    letter-spacing: 0.44px;
+}
+.header__contact__btn-callback {
+    margin-right: 100px;
+}
+.frame-line {
+    width: 5.21vw;
+    top: 104px;
+    bottom: 10.42vh;
+}
+.left-line {
+    position: fixed;
+    z-index: 2;
+    background: rgba(30, 33, 40, 0.80);
+}
+.menu-btn{
+    position: relative;
+    width: 100%;
+    top: 44%;
+}
+.news__row {
+    display: flex;
+}
+.news-item {
+    width: calc(100% / 3);
+    position: relative;
+    width: 100%;
+}
+.news-item__img {
+    position: relative;
+}
+.news-item__bg { 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: linear-gradient(#12141B00, #12141B);
+}
+.news-item__img img{
+    max-width: 100%;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+.news__item__info {
+    position: absolute;
+    width: 69%;
+    left: 8%;
+    bottom: 7%;
+}
+.news__item__info-left {
+    left: 24%;
+}
+.news__item__info-bt {
+    bottom: 25%;
+}
+.news__item__title {
+    font-size: 20px;
+    line-height: 25px; 
+    letter-spacing: 0.4px;
+}
+.news__item__text {
+    margin: 8px 0;
+    font-size: 16px;
+    line-height: 22px; 
+    letter-spacing: 0.32px;
+}
+.news__item__info__link::after {
+    content: url(../img/arrow.svg);
+    margin-left: 7px;
+}
+.news__item__info__link:hover .news__item__link-more {
+    text-decoration: underline;
+}
+.news__item__link-more {
+    color: #D31218;
+    font-family: 'Uni Neue Bold';
+    font-size: 16px;
+    line-height: 25px; 
+    letter-spacing: 0.32px;
+}
+
+@media (max-width: 1650px) {
+    .news__item__title {
+        font-size: 18px;
+        line-height: 20px; 
+    }
+    .news__item__text {
+        margin: 5px 0;
+        font-size: 13px;
+        line-height: 18px; 
+    }
+    .news__item__link-more {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+.news__item__title__spec {
+    color: #D31218;
+}
+.frame-bottom {
+    position: fixed;
+    background: rgba(30, 33, 40, 0.80);
+    width: 100%;
+    height: 10.42vh;
+    bottom: 0;
+    z-index: 2;
+}
+.right-line {
+    position: fixed;
+    right: 0;
+    z-index: 2;
+    background: rgba(30, 33, 40, 0.80);
+}
+.right-line__circles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16px;
+    margin: 96px auto 88px;
+}
+.right-line__circles__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+.right-line__circles__item:last-child {
+    margin-bottom: 0;
+}
+.right-line__circles__item-choose {
+    width: 24px;
+}
+.right-line__circles__item__circle img,.right-line__circles__item__line img {
+    display: block;
+}
+.right-line__circles__item__line-choose img {
+    transform: rotate(180deg);
+}
+.right-line__circles__item__circle-choose {
+    position: absolute;
+    left: -1%;
+    top: 35%;
+}
