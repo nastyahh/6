@@ -72,10 +72,13 @@ body {
     z-index: 2;
     background: rgba(30, 33, 40, 0.80);
 }
-.menu-btn{
+.menu-btn {
     position: relative;
     width: 100%;
     top: 44%;
+}
+.menu-btn:hover {
+    cursor: pointer;
 }
 .news__row {
     display: flex;
