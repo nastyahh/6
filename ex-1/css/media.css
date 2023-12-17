@@ -1,0 +1,116 @@
+@media (max-width: 1200px) {
+    .section-goals__title {
+        font-size: 90px;
+    }
+    .section-goals__item__text {
+        font-size: 20px;
+    }
+    .section-quote__text {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 990px) {
+    .section-goals__title {
+        font-size: 85px;
+    }
+    .section-goals__item {
+        height: 250px;
+        padding: 35px 15px 0;
+    }
+    .section-goals__item__rhomb {
+        width: 50px;
+        height: 50px;
+    }
+    .section-goals__item__rhomb__numb {
+        font-size: 30px;
+        top: 14px;
+    }
+    .section-goals__item__text {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+   .section-quote__text {
+        font-size: 40px;
+   }
+}
+@media (max-width: 768px) {
+    .section-goals {
+        padding-top: 70px;
+    }
+    .section-goals__header {
+        margin-bottom: 50px;
+    }
+    .section-goals__title {
+        font-size: 70px;
+    }
+    .section-goals__subtitle  {
+        font-size: 18px;
+        width: 350px;
+    }
+    .section-goals__wrapper {
+        flex-wrap: wrap;
+       justify-content: center;
+    }
+    .section-goals__item {
+        width: 35%;
+        height: 230px;
+        padding: 35px 23px 10px;
+    }
+    .section-goals__item__rhomb__numb {
+        font-size: 27px;
+    }
+    .section-quote__wrapper {
+        background-size: contain;
+        padding-top: 13%;
+    }
+    .section-quote__text {
+        font-size: 34px;
+        width: 750px;
+    }
+    .section-quote__text {
+        width: 510px;
+    }
+    /* .section-quote__img {
+        top: -50%;
+        left: -5%;
+    } */
+}
+@media (max-width: 550px) {
+    .container {
+        padding: 0 15px;
+    }
+    .section-goals__title {
+        font-size: 50px;
+        margin-bottom: 20px;
+    } 
+    .section-goals__subtitle  {
+        font-size: 14px;
+        width: 260px;
+    }
+    .section-goals__item {
+        width: 80%;
+        height: 195px;
+        padding: 30px 20px 10px;
+    }
+    .section-quote__wrapper {
+        padding-top: 15%;
+    }
+    .section-quote__text {
+        width: 87%;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 400px) {
+    .section-quote {
+        padding: 110px 0 130px;
+    }
+    .section-quote__wrapper {
+        padding-bottom: 90px;
+    }
+     .section-quote__text {
+        width: 100%;
+        font-size: 20px;
+    }
+}

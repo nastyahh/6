@@ -159,25 +159,33 @@ body {
 }
 
 .section-quote {
-    padding: 300px 0;
+    padding: 130px 0 170px;
     background: #000;
     text-align: center;
 }
+
+.section-quote__wrapper {
+    max-width: 1053px;
+    margin: 0 auto;
+    padding: 97px 0 133px;
+    background: url(../img/ellipse.png) no-repeat;
+    
+}
 .section-quote__text {
-    position: relative;
     margin: 0 auto;
     max-width: 933px;
     height: auto;
     line-height: 130%;
     font-size: 50px;
+   
 }
 .section-quote__text span {
     text-decoration: underline;
     text-decoration-color: #F33;
     text-decoration-thickness: 2px;
 }
-.section-quote__img {
+/* .section-quote__img {
     position: absolute;
     left: -10%;
     top: -100%;
-}
+} */
